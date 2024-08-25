@@ -17,11 +17,13 @@ The primary dataset used in this project consists of images of dogs across 133 d
 
 After downloading, the dataset should be extracted into the following structure:
 
+```
 
 dogImages/
     ├── train/
     ├── valid/
     └── test/
+```
 
 
 #### Dog Breeds Overview
