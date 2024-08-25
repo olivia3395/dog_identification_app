@@ -4,6 +4,8 @@ This project is a Dog Breed Identification application built with TensorFlow/Ker
 
 ## Project File
 
+
+
 The project is contained in a single Jupyter notebook:
 
 - **DogIdentificationApp.ipynb**: Contains the full implementation of the app, including the model loading, image preprocessing, prediction, and visualization of results.
@@ -11,6 +13,11 @@ The project is contained in a single Jupyter notebook:
 ## Dataset
 
 The app uses a pre-trained VGG16 model and relies on images for testing. You can add your dog images into a folder named `test_data` and use this application to predict their breeds.
+
+#### Dog Breeds Overview
+Below is an overview of some dog breeds used in the classification:
+![Dog Breeds Overview](./Dog_Breeds_Overview.png)
+
 
 ## Prerequisites
 
@@ -38,6 +45,14 @@ pip install tensorflow keras numpy matplotlib Pillow
 ## Usage
 
 Upload dog images to the `test_data` folder. The notebook will process the images, extract features using VGG16, and make predictions using a pre-trained classifier. The results will be visualized in a grid, displaying the image along with the predicted breed.
+
+
+#### Predicted Breeds: Chihuahua
+![Predicted Breed: Chihuahua](./Predicted_Breed_Chihuahua.png)
+
+#### Predicted Breeds: Great Pyrenees and Bernese Mountain Dog
+![Predicted Breeds: Great Pyrenees and Bernese Mountain Dog](./Predicted_Breed_Great_Pyrenees_Bernese_Mountain_Dog.png)
+
 
 ## License
 
