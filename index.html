@@ -96,15 +96,17 @@
       <li><a href="https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip" target="_blank">Dog Image Dataset (Udacity)</a>: This dataset consists of images of dogs from 133 different breeds. Download and extract to use in training.</li>
       <li><a href="https://drive.google.com/file/d/18haFZAdGo4TTlPI_cwpN8t5RcqJh8ECG/view?usp=sharing" target="_blank">Preprocessed VGG16 Bottleneck Features</a>: This file contains precomputed bottleneck features using the VGG16 model for faster training.</li>
     </ul>
+    <div>
+      <img src="./Dog_Breeds_Overview.png" alt="Dog Breeds Overview" style="width: 50%;">
+    </div>
   </section>
 
   <section id="results">
     <h2 class="section-title">Results</h2>
     <p>Below are some examples of predictions made by the Dog Identification App:</p>
     <div class="image-gallery">
-      <img src="./Predicted_Breed_Chihuahua.png" alt="Predicted Breed: Chihuahua">
-      <img src="./Predicted_Breed_Great_Pyrenees_Bernese_Mountain_Dog.png" alt="Predicted Breed: Great Pyrenees and Bernese Mountain Dog">
-      <img src="./Dog_Breeds_Overview.png" alt="Dog Breeds Overview">
+      <img src="./Predicted_Breed_Chihuahua.png" alt="Predicted Breed: Chihuahua" style="width: 45%;">
+      <img src="./Predicted_Breed_Great_Pyrenees_Bernese_Mountain_Dog.png" alt="Predicted Breed: Great Pyrenees and Bernese Mountain Dog" style="width: 45%;">
     </div>
   </section>
 
@@ -124,12 +126,12 @@
 
     <h3>Custom CNN Model</h3>
     <p>The custom CNN model was built from scratch and achieved the following performance:</p>
-    <img src="./Training_Validation_Accuracy_Loss.png" alt="Training and Validation Results - Custom CNN">
+    <img src="./Training_Validation_Accuracy_Loss.png" alt="Training and Validation Results - Custom CNN" style="width: 70%;">
     <p>Though the custom CNN model improved during training, the validation performance showed significant fluctuations, suggesting generalization challenges.</p>
 
     <h3>VGG16 Model</h3>
     <p>The VGG16 model, pre-trained on ImageNet, was fine-tuned for the dog breed classification task. It achieved better performance and more stable validation results:</p>
-    <img src="./training_validation_accuracy_loss_vgg.png" alt="Training and Validation Results - VGG16">
+    <img src="./training_validation_accuracy_loss_vgg.png" alt="Training and Validation Results - VGG16" style="width: 70%;">
     <p>The VGG16 model outperformed the custom CNN due to its powerful feature extraction capabilities from the pretrained convolutional layers.</p>
 
     <h3>Key Observations:</h3>
@@ -141,7 +143,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2024 Dog Identification App by [Your Name]</p>
+    <p>&copy; 2024 Dog Identification App by Yuyao Wang</p>
   </footer>
 </body>
 
