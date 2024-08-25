@@ -73,8 +73,6 @@ After downloading the `DogVGG16Data.npz` file, ensure it is placed in the workin
 
 This project is licensed under the MIT License.
 
-``
-
 ### Key Points:
 - The `Dog Image Dataset` link provides the user with the dog images dataset from Udacity. Instructions on extracting and organizing the dataset are provided.
 - The `Preprocessed VGG16 Bottleneck Features` link directs the user to download the `.npz` file from Google Drive and place it in their working directory for use.
